@@ -13,7 +13,8 @@ code {
 }
 
 header {
-  background-color: rgb(224, 224, 224);
+  background-color: #2e93ff;
+  color: white;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -21,7 +22,8 @@ header {
 h1,
 h2 {
   margin: 0px;
-  background-color: rgb(224, 224, 224);
+  background-color: #2e93ff;
+  color: white;
 }
 
 form {
@@ -54,7 +56,7 @@ label {
   margin-right: 1em;
 }
 
-input[type="submit" i] {
+input[type="submit"] {
   background-color: rgb(0, 199, 0);
   color: white;
   border: none;
@@ -62,6 +64,6 @@ input[type="submit" i] {
   padding: 0.3em;
 }
 
-input[type="submit" i]:hover {
+input[type="submit"]:hover {
   transform: scale(1.03);
 }

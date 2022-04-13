@@ -1,4 +1,4 @@
-import { AiFillCode } from "react-icons/ai";
+import { BsFillPenFill } from "react-icons/bs";
 import Relogio from "../Componentes/Relogio.js";
 import "../index.css";
 
@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <header>
         <h1>
-          Cadastro de Clientes <AiFillCode color="black" />
+          Cadastro de Clientes <BsFillPenFill color="white" size={25} />
         </h1>
         <h2>
           <Relogio />
