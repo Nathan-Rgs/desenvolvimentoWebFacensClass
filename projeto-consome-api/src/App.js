@@ -9,7 +9,10 @@ function App() {
     const json = await resultado.json();
     setUsers(json.data);
   };
-  funcaoAssync();
+
+  React.useEffect(() => {
+    funcaoAssync();
+  }, []);
 
   return (
     <div className="cardContent">
@@ -22,7 +25,7 @@ function App() {
                 <strong> {user.first_name} </strong>
               </p>
               <p> {user.email} </p>
-              <img key={user.avatar} src={user.avatar} />
+              <img key={user.avatar} src={user.avatar} alt={user.avatar} />
             </div>
           );
         })}
